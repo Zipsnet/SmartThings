@@ -46,7 +46,7 @@ preferences {
 	}
 	
 	section("Select dimmers to brighten...") {
-		input "switches", "capability.switch", multiple: true, title "Which?"
+		input "switches", "capability.switch", multiple: true, title: "Which?"
 	}
     
     //Uncomment this section below to test/change on the IDE. Smartphone does 
